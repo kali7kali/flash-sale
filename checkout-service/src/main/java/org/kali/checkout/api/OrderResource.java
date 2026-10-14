@@ -41,4 +41,3 @@ public class OrderResource {
         return getOrderService.get(pedidoId);
     }
 }
-

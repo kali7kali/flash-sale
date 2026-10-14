@@ -8,4 +8,3 @@ public interface OrderCache {
 
     void put(OrderView order);
 }
-

@@ -33,4 +33,3 @@ public class CompensationService {
                 message.produtoId(), message.quantidade(), message.motivo());
     }
 }
-

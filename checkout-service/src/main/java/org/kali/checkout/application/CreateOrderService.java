@@ -51,4 +51,3 @@ public class CreateOrderService {
         return new CreateOrderResult(orderId, OrderStatus.PROCESSING, now);
     }
 }
-

@@ -7,4 +7,3 @@ public interface OrderGateway {
 
     Optional<OrderView> findById(String orderId);
 }
-

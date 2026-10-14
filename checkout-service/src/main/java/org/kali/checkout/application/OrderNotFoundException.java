@@ -6,4 +6,3 @@ public class OrderNotFoundException extends RuntimeException {
         super("Pedido não encontrado");
     }
 }
-

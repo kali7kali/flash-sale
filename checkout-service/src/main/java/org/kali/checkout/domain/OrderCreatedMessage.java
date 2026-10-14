@@ -13,4 +13,3 @@ public record OrderCreatedMessage(
         @JsonProperty("cliente_nome") String clienteNome,
         @JsonProperty("data_hora_criacao") LocalDateTime dataHoraCriacao) {
 }
-

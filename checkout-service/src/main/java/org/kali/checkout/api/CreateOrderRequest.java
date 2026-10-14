@@ -13,4 +13,3 @@ public record CreateOrderRequest(
         @NotBlank(message = "cliente_cpf é obrigatório") @Pattern(regexp = "^$|\\d{11}", message = "cliente_cpf deve conter 11 dígitos") @JsonProperty("cliente_cpf") String clienteCpf,
         @JsonProperty("cliente_nome") String clienteNome) {
 }
-

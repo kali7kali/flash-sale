@@ -4,4 +4,3 @@ public interface OrderEventPublisher {
 
     void publishOrderCreated(OrderCreatedMessage message);
 }
-

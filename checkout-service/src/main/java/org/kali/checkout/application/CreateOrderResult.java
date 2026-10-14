@@ -11,4 +11,3 @@ public record CreateOrderResult(
         @JsonProperty("status") OrderStatus status,
         @JsonProperty("data_hora_requisicao") LocalDateTime dataHoraRequisicao) {
 }
-

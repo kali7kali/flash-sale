@@ -4,4 +4,3 @@ public interface CompensationPublisher {
 
     void publish(CompensationMessage message);
 }
-

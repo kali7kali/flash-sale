@@ -29,4 +29,3 @@ public class JpaOrderStore implements OrderStore {
         return Optional.ofNullable(em.find(Order.class, id));
     }
 }
-

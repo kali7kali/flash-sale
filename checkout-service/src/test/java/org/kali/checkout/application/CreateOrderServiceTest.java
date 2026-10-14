@@ -81,4 +81,3 @@ class CreateOrderServiceTest {
         assertEquals(5, stock.available("PROD-001"));
     }
 }
-

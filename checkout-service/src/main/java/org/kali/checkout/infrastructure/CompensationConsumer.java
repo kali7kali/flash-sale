@@ -38,4 +38,3 @@ public class CompensationConsumer {
         service.compensate(mapper.readValue(json, CompensationMessage.class));
     }
 }
-

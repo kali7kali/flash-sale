@@ -38,4 +38,3 @@ public class OrderCreatedConsumer {
         service.process(mapper.readValue(json, OrderCreatedMessage.class));
     }
 }
-

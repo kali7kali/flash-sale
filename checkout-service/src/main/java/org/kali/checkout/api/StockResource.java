@@ -41,4 +41,3 @@ public class StockResource {
         return new StockBody(stock.available(produtoId), produtoId);
     }
 }
-

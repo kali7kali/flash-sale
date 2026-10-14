@@ -10,4 +10,3 @@ public interface OrderStore {
 
     Optional<Order> findById(UUID id);
 }
-

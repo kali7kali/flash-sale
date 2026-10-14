@@ -70,4 +70,3 @@ public class RedisStockRepository implements StockRepository {
         redis.value(String.class).setex("compensation:" + orderId, 7 * 24 * 3600L, "DONE");
     }
 }
-

@@ -67,4 +67,3 @@ public class ProcessOrderService {
         return LocalDateTime.now().truncatedTo(ChronoUnit.SECONDS);
     }
 }
-

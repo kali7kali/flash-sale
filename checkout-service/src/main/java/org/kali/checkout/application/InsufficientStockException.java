@@ -6,4 +6,3 @@ public class InsufficientStockException extends RuntimeException {
         super("Estoque insuficiente para o produto " + productId);
     }
 }
-

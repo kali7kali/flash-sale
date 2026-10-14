@@ -18,4 +18,3 @@ public interface OrderProcessorClient {
     @Produces(MediaType.APPLICATION_JSON)
     OrderView findById(@PathParam("id") String id);
 }
-

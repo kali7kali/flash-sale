@@ -16,4 +16,3 @@ public class InsufficientStockExceptionMapper implements ExceptionMapper<Insuffi
                 .entity(new ErrorResponse(e.getMessage())).build();
     }
 }
-

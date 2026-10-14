@@ -6,4 +6,3 @@ public interface FailureSimulator {
     /** @throws OrderProcessingException se o pedido deve falhar */
     void check(OrderCreatedMessage message);
 }
-

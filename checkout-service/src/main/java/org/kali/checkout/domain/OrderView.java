@@ -16,4 +16,3 @@ public record OrderView(
         @JsonProperty("status") OrderStatus status,
         @JsonProperty("data_hora_atualizacao") LocalDateTime dataHoraAtualizacao) {
 }
-

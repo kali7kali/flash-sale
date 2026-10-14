@@ -53,4 +53,3 @@ public class FakeStockRepository implements StockRepository {
         compensated.add(orderId);
     }
 }
-

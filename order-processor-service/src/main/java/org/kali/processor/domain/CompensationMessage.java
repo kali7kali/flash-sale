@@ -9,4 +9,3 @@ public record CompensationMessage(
         @JsonProperty("quantidade") int quantidade,
         @JsonProperty("motivo") String motivo) {
 }
-

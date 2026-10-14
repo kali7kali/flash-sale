@@ -33,4 +33,3 @@ class CompensationServiceTest {
         assertEquals(5, stock.available("PROD-001"));
     }
 }
-
