@@ -1,0 +1,44 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< org.kali:checkout-service >----------------------
+[INFO] Building checkout-service 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] ------------------------------[ quarkus ]-------------------------------
+[INFO] 
+[INFO] --- quarkus:3.40.1:dev (default-cli) @ checkout-service ---
+[INFO] Invoking quarkus:3.40.1:generate-code (default-generate-code) @ checkout-service
+[INFO] Invoking resources:3.3.1:resources (default-resources) @ checkout-service
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Invoking compiler:3.15.0:compile (default-compile) @ checkout-service
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 28 source files with javac [debug parameters release 21] to target\classes
+[INFO] Invoking quarkus:3.40.1:generate-code-tests (default-generate-code-tests) @ checkout-service
+[INFO] Invoking resources:3.3.1:testResources (default-testResources) @ checkout-service
+[INFO] skip non existing resourceDirectory C:\dev\java\ada_backIII\flash-sale\flash-sale\checkout-service\src\test\resources
+[INFO] Invoking compiler:3.15.0:testCompile (default-testCompile) @ checkout-service
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 5 source files with javac [debug parameters release 21] to target\test-classes
+
+----------------------------
+--- Help improve Quarkus ---
+----------------------------
+* Learn more: https://quarkus.io/usage/
+* Do you agree to contribute anonymous build time data to the Quarkus community? (y/n and enter) 
+[info] [Quarkus build analytics] Didn't receive the user's answer after 10 seconds. The question will be asked again next time.
+
+ERROR: transport error 202: bind failed: Address already in use
+ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)
+JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [s\open\src\jdk.jdwp.agent\share\native\libjdwp\debugInit.c:700]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.540 s
+[INFO] Finished at: 2026-10-14T11:17:02-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal io.quarkus.platform:quarkus-maven-plugin:3.40.1:dev (default-cli) on project checkout-service: Failed to run: Dev mode process did not complete successfully -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
