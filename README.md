@@ -44,7 +44,7 @@ Falhas também podem ser aleatórias com `processor.failure-rate` (0 a 1) e a pa
 - **Estoque**: script Lua no Redis (`GET` + comparação + `DECRBY`) → atômico, nunca fica negativo.
 - **Banco segregado**: só o order-processor acessa o banco de pedidos; o checkout o consulta via `GET /internal/orders/{id}`.
 - **Cache-Aside**: Redis (`order:{id}`, TTL 300s) → banco → grava no cache; até 3 tentativas (300 ms entre elas) antes do `404`.
-- **Compensação idempotente**: chave `compensation:{pedido_id}` evita devolver estoque duas vezes. Se a publicação em `order-created` falhar, o estoque é devolvido imediatamente.
+- **Compensação idmpotente**: chave `compensation:{pedido_id}` evita devolver estoque duas vezes. Se a publicação em `order-created` falhar, o estoque é devolvido imediatamente.
 - Mensagens são JSON (snake_case, conforme o enunciado) trafegando como texto.
 ## Testes
 ```shell
